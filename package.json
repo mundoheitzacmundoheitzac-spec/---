@@ -1,0 +1,21 @@
+{
+  "name": "dominion-md",
+  "version": "1.0.0",
+  "description": "DOMINION-MD - Bot de WhatsApp",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --experimental-strip-types index.ts",
+    "dev": "node --watch --experimental-strip-types index.ts"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.7.9",
+    "node:sqlite": "^22.0.0",
+    "pino": "^9.5.0",
+    "qrcode-terminal": "^1.5.4"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
